@@ -13,7 +13,7 @@ jobs:
           key: node_modules_{{ checksum "package.json" }}
           paths:
             - ~/zyra.github.io/node_modules/
-      - run: npm run build:prod
+      - run: npm run build
       - add_ssh_keys
       - run:
           command: |
