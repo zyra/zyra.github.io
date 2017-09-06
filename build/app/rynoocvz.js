@@ -1,0 +1,2 @@
+/*! Built with http://stenciljs.com */
+App.loadComponents("rynoocvz",function(n,o,t,r,_){var e=function(){function n(){}return n.prototype.render=function(){return o("p",0,t("Hello"))},n}();n["MY-APP"]=e},["MY-APP",0,{}]);
