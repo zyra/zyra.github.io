@@ -8,10 +8,9 @@ import { Component } from '@stencil/core';
 export class MyApp {
 
   render() {
-    return (
-      <p>
-        Hello
-      </p>
-    );
+    return [
+      <site-header></site-header>,
+      <p>Hello world</p>
+    ];
   }
 }

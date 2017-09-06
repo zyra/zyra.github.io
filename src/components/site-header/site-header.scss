@@ -1,0 +1,25 @@
+site-header {
+  background: url('/assets/toronto-landscape-night.jpg') center/cover;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  > img {
+    max-width: 90%;
+    width: 200px;
+    height: auto;
+  }
+
+  > img, > h1 {
+    align-self: center;
+  }
+
+  > h1 {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-top: 50px;
+  }
+
+}
