@@ -1,0 +1,31 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/zyra.github.io/
+    docker:
+      - image: node:7
+    steps:
+      - checkout
+      - restore_cache:
+          key: node_modules_{{ checksum "package.json" }}
+      - run: npm i
+      - save_cache:
+          key: node_modules_{{ checksum "package.json" }}
+          paths:
+            - ~/zyra.github.io/node_modules/
+      - run: npm run build:prod
+      - add_ssh_keys
+      - run:
+          command: |
+            git config --global user.email "ibby93+zmbot@gmail.com"
+            git config --global user.name "ZM Bot"
+            rm -rf ../zyra.github.io-master
+            git clone git@github.com:zyra/zyra.github.io ../zyra.github.io-master
+            cd ../zyra.github.io-master
+            git checkout master # make sure we're on master
+            git pull
+            git rm -rf *
+            cp -r ../zyra.github.io/www/* .
+            git add .
+            git commit -am "Automated website build - zyra/zyra.github.io@$CIRCLE_SHA!" -m "[ci skip]"
+            git push origin master
