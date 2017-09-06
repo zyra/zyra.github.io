@@ -1,0 +1,2 @@
+/*! Built with http://stenciljs.com */
+body,html{padding:0;margin:0}my-app{font-family:'Open Sans',sans-serif}site-header{background:url(/assets/toronto-landscape-night.jpg) center/cover;height:350px;display:flex;justify-content:center;flex-direction:column}site-header>img{max-width:90%;width:200px;height:auto}site-header>h1,site-header>img{align-self:center}site-header>h1{color:#fff;font-size:1.6rem;font-weight:500;margin-top:50px}my-app.💎,site-header.💎,site-nav.💎{visibility:inherit}

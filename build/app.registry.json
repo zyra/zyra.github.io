@@ -3,9 +3,23 @@
   "components": [
     [
       "MY-APP",
-      "rynoocvz",
+      "ix8ihwv3",
       {
-        "$": "57hyg5d9"
+        "$": "gyhvkoub"
+      }
+    ],
+    [
+      "SITE-HEADER",
+      "ix8ihwv3",
+      {
+        "$": "gyhvkoub"
+      }
+    ],
+    [
+      "SITE-NAV",
+      "ix8ihwv3",
+      {
+        "$": "gyhvkoub"
       }
     ],
     [
