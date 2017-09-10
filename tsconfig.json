@@ -1,26 +1,15 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "allowUnreachableCode": false,
-    "declaration": false,
-    "experimentalDecorators": true,
+    "module": "commonjs",
+    "target": "es5",
     "lib": [
       "dom",
-      "es2015"
+      "es6"
     ],
-    "moduleResolution": "node",
-    "module": "es2015",
-    "target": "es2015",
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "jsx": "react",
-    "jsxFactory": "h"
+    "removeComments": true
   },
-  "include": [
-    "src",
-    "types/jsx.d.ts"
-  ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "gulptasks.ts"
   ]
 }

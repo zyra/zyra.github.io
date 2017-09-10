@@ -1,0 +1,12 @@
+doctype html
+html(lang="en")
+  head
+    title=pageTitle
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no')
+    link(rel='stylesheet' type='text/css' href='/main.css')
+  body
+    include _includes/header
+    canvas#chart-canvas
+    script(type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js')
+    script(type='text/javascript' src='/main.js')

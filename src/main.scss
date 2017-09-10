@@ -3,6 +3,8 @@ html, body {
   margin: 0;
 }
 
-my-app {
+body {
   font-family: 'Open Sans', sans-serif;
 }
+
+@import '_includes/header';
