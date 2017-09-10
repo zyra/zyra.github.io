@@ -1,4 +1,0 @@
-/*! Built with http://stenciljs.com */
-(function(appNamespace,publicPath){"use strict";
-!function(n){var t=Object.assign||function(n){for(var t,e=1,o=arguments.length;e<o;e++){t=arguments[e];for(var r in t)Object.prototype.hasOwnProperty.call(t,r)&&(n[r]=t[r])}return n};Context.activeRouter=function(){function n(){return{location:{pathname:Context.window.location.pathname,search:Context.window.location.search}}}function e(){for(var n=r,t=0;t<n.length;t++)(0,n[t])()}var o={},r=[];return{set:function(n){o=t({},o,n),e()},get:function(t){return 0===Object.keys(o).length?n():t?o[t]:o},subscribe:function(n){if("function"!=typeof n)throw new Error("Expected listener to be a function.");var t=!0;return r.push(n),function(){if(t){t=!1;var e=r.indexOf(n);r.splice(e,1)}}}}}()}(publicPath);
-})("App","/build/app/");
