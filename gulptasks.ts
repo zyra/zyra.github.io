@@ -6,11 +6,12 @@ import * as sass from 'gulp-sass';
 import * as autoPrefixer from 'gulp-autoprefixer';
 import * as concat from 'gulp-concat';
 import * as cleanCSS from 'gulp-clean-css';
-import * as rollup from 'gulp-rollup';
-import * as rollupTs from 'rollup-plugin-typescript';
-import * as rename from 'gulp-rename';
-import * as typescript from 'typescript';
 import * as uglify from 'gulp-uglify';
+
+import * as browserify from 'browserify';
+import * as tsify from 'tsify';
+import * as source from 'vinyl-source-stream';
+import * as buffer from 'vinyl-buffer';
 
 const BUILD_PATHS = {
   js: 'src/**/*.ts',
@@ -24,19 +25,22 @@ const WATCH_PATHS = {
   css: 'src/**/*.scss'
 };
 
-task('build:js', () => {
-  return src(BUILD_PATHS.js)
-    .pipe(rollup({
-      entry: 'src/main.ts',
-      format: 'cjs',
-      plugins: [
-        rollupTs({ typescript })
-      ]
-    }))
-    .pipe(rename('main.js'))
+task('copy-charts', () => {
+  return src('./chart.js')
+    .pipe(dest('node_modules/chart.js/src/'));
+});
+
+task('build:js', ['copy-charts'], () => {
+  return browserify({
+    entries: './src/main.ts',
+    debug: false
+  })
+    .plugin(tsify, { project: __dirname })
+    .bundle()
+    .pipe(source('main.js'))
+    .pipe(buffer())
     .pipe(uglify())
-    .pipe(dest('www'))
-    .pipe(reload());
+    .pipe(dest('www'));
 });
 
 task('build:html', () => {

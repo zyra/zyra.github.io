@@ -7,4 +7,21 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+
+}
+
+h2 {
+  font-weight: 300;
+}
+
+h2.section-header {
+  text-align: center;
+  margin: 40px auto;
+  small {
+    display: block;
+    font-size: 1rem;
+  }
+}
+
 @import '_includes/header';

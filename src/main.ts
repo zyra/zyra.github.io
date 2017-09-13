@@ -1,4 +1,4 @@
-declare const Chart: any;
+import * as Chart from 'chart.js';
 
 interface ViewsData {
   timestamp: string;
@@ -32,16 +32,12 @@ interface Stats {
 
 const onLoad = () => {
 
-  fetch('/assets/stats.json')
+  fetch('assets/stats.json')
     .then((response: Response) => response.json())
     .then((response: Stats) => {
 
     response.mainChartData.options = {
       responsive: true,
-      title:{
-        display:true,
-        text: 'Overall statistics'
-      },
       tooltips: {
         mode: 'index',
         intersect: false,
@@ -52,25 +48,37 @@ const onLoad = () => {
       },
       scales: {
         xAxes: [{
-          display: true,
-          scaleLabel: {
-            display: true,
-            labelString: 'Month'
+          gridLines: {
+            color: 'rgba(255,255,255, 0.2)',
+            zeroLineColor: 'rgba(255,255,255, 0.5)'
           }
         }],
         yAxes: [{
-          display: true,
-          scaleLabel: {
-            display: true,
-            labelString: 'Value'
+          gridLines: {
+            color: 'rgba(255,255,255, 0.15)',
+            zeroLineColor: 'rgba(255,255,255, 0.5)'
           }
         }]
-      }
+      },
+      elements: {
+        line: {
+          tension: 0
+        }
+      },
+      legend: {
+        labels: {
+          fontColor: 'white'
+        }
+      },
+
     };
 
-      const canvas: HTMLCanvasElement = <HTMLCanvasElement>document.getElementById('chart-canvas');
+      const canvas: HTMLCanvasElement = <HTMLCanvasElement>document.querySelector('.main-chart-container canvas');
+      canvas.height = 300;
       const ctx: CanvasRenderingContext2D = canvas.getContext('2d');
       let _chart = new Chart(ctx, response.mainChartData);
+
+      window['c'] = _chart;
 
       console.log('Response is ', response);
     })
