@@ -1,4 +1,4 @@
-import { task, src, watch, dest } from 'gulp';
+import { task, src, watch, dest, start } from 'gulp';
 import { server, reload } from 'gulp-connect';
 
 import * as pug from 'gulp-pug';
@@ -80,7 +80,9 @@ task('build:sw', () => {
   wbBuild.generateSW(wbConfig);
 });
 
-task('build', ['build:js', 'build:html', 'build:css']);
+task('build', ['build:js', 'build:html', 'build:css'], () => {
+  start('build:sw');
+});
 
 task('serve', ['build'], () => {
   watch(WATCH_PATHS.js, <any>['build:js']);
