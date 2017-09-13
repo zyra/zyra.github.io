@@ -19,9 +19,4 @@ html(lang="en")
     .repos
 
     script(type='text/javascript' src='main.js')
-    script(type='text/javascript').
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function(){
-          navigator.serviceWorker.register('/sw.js');
-        });
-      }
+    script(type='text/javascript') var n=navigator;if('serviceWorker'in n)window.addEventListener('load', function(){navigator.serviceWorker.register('/sw.js')})
