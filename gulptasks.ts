@@ -13,6 +13,7 @@ import * as source from 'vinyl-source-stream';
 import * as buffer from 'vinyl-buffer';
 import * as purify from 'gulp-purifycss';
 import * as wbBuild from 'workbox-build';
+import * as gulpSequence from 'gulp-sequence';
 
 const BUILD_PATHS = {
   js: 'src/**/*.ts',
@@ -80,10 +81,7 @@ task('build:sw', () => {
   wbBuild.generateSW(wbConfig);
 });
 
-task('build', ['build:js', 'build:html', 'build:css'], () => {
-  start('build:sw');
-});
-
+task('build', gulpSequence(['build:js', 'build:html'], 'build:css', 'build:sw'));
 task('serve', ['build'], () => {
   watch(WATCH_PATHS.js, <any>['build:js']);
   watch(WATCH_PATHS.html, <any>['build:html']);
