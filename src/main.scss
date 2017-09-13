@@ -1,14 +1,27 @@
+$primary: #4e4cab;
+$secondary: #f41b4b;
+
+@import '../node_modules/bootstrap/scss/bootstrap-grid';
+@import '../node_modules/bootstrap/scss/mixins/lists';
+@import '../node_modules/bootstrap/scss/mixins/hover';
+@import '../node_modules/bootstrap/scss/mixins/border-radius';
+@import '../node_modules/bootstrap/scss/mixins/alert';
+@import '../node_modules/bootstrap/scss/type';
+@import '../node_modules/bootstrap/scss/reboot';
+@import '../node_modules/bootstrap/scss/alert';
+//@import '../node_modules/bootstrap/scss/';
+
 html, body {
   padding: 0;
   margin: 0;
 }
 
-body {
-  font-family: 'Open Sans', sans-serif;
-}
-
-h1 {
-
+.main-chart-container {
+  canvas {
+    display: block;
+    height: 300px;
+    width: 100%;
+  }
 }
 
 h2 {
@@ -18,10 +31,24 @@ h2 {
 h2.section-header {
   text-align: center;
   margin: 40px auto;
+  color: lighten($secondary, 10);
   small {
     display: block;
     font-size: 1rem;
+    opacity: 0.8;
   }
+}
+
+.sw-update-alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 20px auto;
+  width: 500px;
+  max-width: 90%;
+  display: block;
+  z-index: 1000;
 }
 
 @import '_includes/header';

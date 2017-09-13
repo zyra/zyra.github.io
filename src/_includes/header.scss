@@ -1,28 +1,9 @@
 header#site-header {
-  background: url('assets/toronto-landscape-night.jpg') center/cover;
-  height: 100vh;
-  min-height: 800px;
+  background: linear-gradient(-45deg, transparentize($primary, 0.7), transparentize($secondary, 0.9)), url('assets/toronto-landscape-night.jpg') no-repeat center 20%/cover;
+  height: 400px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-
-  .main-chart-container {
-    margin-top: 100px;
-    background: rgba(0,0,0,0.5);
-    padding-bottom: 50px;
-
-    h2 {
-      color: rgba(255,255,255, 0.8);
-      small {
-        color: rgba(255,255,255, 0.4);
-      }
-    }
-    canvas {
-      display: block;
-      width: 100%;
-      height: 300px;
-    }
-  }
 
   > img {
     max-width: 90%;
@@ -36,8 +17,8 @@ header#site-header {
 
   > h1 {
     color: white;
-    font-size: 1.6rem;
-    font-weight: 500;
+    //font-size: 1.6rem;
+    font-weight: 300;
     margin-top: 50px;
   }
 }

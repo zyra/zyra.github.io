@@ -2,7 +2,11 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "es5",
-    "removeComments": true
+    "removeComments": true,
+    "lib": [
+      "dom",
+      "es2015"
+    ]
   },
   "exclude": [
     "node_modules",

@@ -8,7 +8,7 @@ require('ts-node').register({
     module: 'commonjs',
     lib: [
       'dom',
-      'es6'
+      'es2015'
     ]
   }
 });

@@ -5,7 +5,23 @@ html(lang="en")
     meta(charset='utf-8')
     meta(name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no')
     link(rel='stylesheet' type='text/css' href='main.css')
+    link(rel='manifest' href='manifest.json')
   body
+
     include _includes/header
 
+    .container.main-chart-container
+      .row
+        h2.section-header Overall Stats
+          small (last 15 days)
+        canvas#chart-canvas
+
+    .repos
+
     script(type='text/javascript' src='main.js')
+    script(type='text/javascript').
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function(){
+          navigator.serviceWorker.register('/sw.js');
+        });
+      }

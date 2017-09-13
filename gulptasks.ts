@@ -7,11 +7,12 @@ import * as autoPrefixer from 'gulp-autoprefixer';
 import * as concat from 'gulp-concat';
 import * as cleanCSS from 'gulp-clean-css';
 import * as uglify from 'gulp-uglify';
-
 import * as browserify from 'browserify';
 import * as tsify from 'tsify';
 import * as source from 'vinyl-source-stream';
 import * as buffer from 'vinyl-buffer';
+import * as purify from 'gulp-purifycss';
+import * as wbBuild from 'workbox-build';
 
 const BUILD_PATHS = {
   js: 'src/**/*.ts',
@@ -60,11 +61,23 @@ task('build:css', () => {
     .pipe(sass().on('error', sass.logError))
     .pipe(autoPrefixer())
     .pipe(concat('main.css'))
+    .pipe(purify(['www/**/*.js', 'www/**/*.html']))
     .pipe(cleanCSS({
       compatibility: 'ie9'
     }))
     .pipe(dest('www'))
     .pipe(reload());
+});
+
+task('build:sw', () => {
+  const wbConfig = {
+    globDirectory: './www/',
+    swDest: './www/sw.js',
+    globPatterns: ['**\/*.{html,js,css,json,jpg,svg}'],
+    skipWaiting: true,
+    clientsClaim: true
+  };
+  wbBuild.generateSW(wbConfig);
 });
 
 task('build', ['build:js', 'build:html', 'build:css']);
