@@ -1,26 +1,26 @@
 {
-  "views": 23292,
-  "stars": 681,
-  "npm_downloads": 7724,
+  "views": 23608,
+  "stars": 687,
+  "npm_downloads": 7823,
   "mainChartData": {
     "type": "line",
     "data": {
       "labels": [
-        "2017-08-28",
-        "2017-08-29",
-        "2017-08-30",
-        "2017-08-31",
-        "2017-09-01",
-        "2017-09-02",
-        "2017-09-03",
-        "2017-09-04",
-        "2017-09-05",
-        "2017-09-06",
-        "2017-09-07",
-        "2017-09-08",
-        "2017-09-09",
-        "2017-09-10",
-        "2017-09-11"
+        "Aug 29th",
+        "Aug 30th",
+        "Aug 31st",
+        "Sep 1st",
+        "Sep 2nd",
+        "Sep 3rd",
+        "Sep 4th",
+        "Sep 5th",
+        "Sep 6th",
+        "Sep 7th",
+        "Sep 8th",
+        "Sep 9th",
+        "Sep 10th",
+        "Sep 11th",
+        "Sep 12th"
       ],
       "datasets": [
         {
@@ -29,8 +29,7 @@
           "borderColor": "rgb(54, 162, 235)",
           "fill": false,
           "data": [
-            110,
-            326,
+            177,
             339,
             326,
             179,
@@ -43,7 +42,8 @@
             154,
             157,
             389,
-            256
+            383,
+            159
           ]
         },
         {
@@ -52,8 +52,7 @@
           "borderColor": "rgb(255, 159, 64)",
           "fill": false,
           "data": [
-            485,
-            1201,
+            580,
             1223,
             1299,
             771,
@@ -66,7 +65,8 @@
             408,
             551,
             1382,
-            764
+            1232,
+            470
           ]
         },
         {
@@ -75,7 +75,6 @@
           "borderColor": "rgb(153, 102, 255)",
           "fill": false,
           "data": [
-            509,
             604,
             482,
             527,
@@ -89,7 +88,8 @@
             745,
             162,
             145,
-            683
+            683,
+            608
           ]
         }
       ]
@@ -98,24 +98,18 @@
   "repos": [
     {
       "name": "ionic2-super-tabs",
-      "stars": 225,
+      "stars": 227,
       "language": "TypeScript",
       "forks": 58,
-      "npm_downloads": 1758,
+      "npm_downloads": 1823,
       "views": {
-        "count": 6717,
-        "uniques": 1333,
+        "count": 6791,
+        "uniques": 1344,
         "views": [
           {
-            "timestamp": "2017-08-29T00:00:00Z",
-            "count": 171,
-            "uniques": 41,
-            "npm_downloads": 75
-          },
-          {
             "timestamp": "2017-08-30T00:00:00Z",
-            "count": 514,
-            "uniques": 143,
+            "count": 224,
+            "uniques": 78,
             "npm_downloads": 103
           },
           {
@@ -192,9 +186,15 @@
           },
           {
             "timestamp": "2017-09-12T00:00:00Z",
-            "count": 308,
-            "uniques": 90,
+            "count": 592,
+            "uniques": 156,
             "npm_downloads": 147
+          },
+          {
+            "timestamp": "2017-09-13T00:00:00Z",
+            "count": 251,
+            "uniques": 81,
+            "npm_downloads": 140
           }
         ]
       }
@@ -206,18 +206,13 @@
       "forks": 24,
       "npm_downloads": 0,
       "views": {
-        "count": 5071,
-        "uniques": 546,
+        "count": 5209,
+        "uniques": 562,
         "views": [
           {
-            "timestamp": "2017-08-29T00:00:00Z",
-            "count": 44,
-            "uniques": 15
-          },
-          {
             "timestamp": "2017-08-30T00:00:00Z",
-            "count": 377,
-            "uniques": 44
+            "count": 131,
+            "uniques": 22
           },
           {
             "timestamp": "2017-08-31T00:00:00Z",
@@ -281,32 +276,31 @@
           },
           {
             "timestamp": "2017-09-12T00:00:00Z",
-            "count": 343,
-            "uniques": 38
+            "count": 551,
+            "uniques": 64
+          },
+          {
+            "timestamp": "2017-09-13T00:00:00Z",
+            "count": 220,
+            "uniques": 33
           }
         ]
       }
     },
     {
       "name": "ngx-facebook",
-      "stars": 122,
+      "stars": 124,
       "language": "TypeScript",
       "forks": 23,
-      "npm_downloads": 3135,
+      "npm_downloads": 3129,
       "views": {
-        "count": 2724,
-        "uniques": 552,
+        "count": 2655,
+        "uniques": 549,
         "views": [
           {
-            "timestamp": "2017-08-29T00:00:00Z",
-            "count": 104,
-            "uniques": 22,
-            "npm_downloads": 193
-          },
-          {
             "timestamp": "2017-08-30T00:00:00Z",
-            "count": 264,
-            "uniques": 60,
+            "count": 150,
+            "uniques": 35,
             "npm_downloads": 305
           },
           {
@@ -383,33 +377,121 @@
           },
           {
             "timestamp": "2017-09-12T00:00:00Z",
-            "count": 115,
-            "uniques": 53,
+            "count": 192,
+            "uniques": 70,
             "npm_downloads": 254
+          },
+          {
+            "timestamp": "2017-09-13T00:00:00Z",
+            "count": 72,
+            "uniques": 25,
+            "npm_downloads": 187
+          }
+        ]
+      }
+    },
+    {
+      "name": "ngx-facebook-example",
+      "stars": 9,
+      "language": "TypeScript",
+      "forks": 4,
+      "npm_downloads": 0,
+      "views": {
+        "count": 2176,
+        "uniques": 272,
+        "views": [
+          {
+            "timestamp": "2017-08-30T00:00:00Z",
+            "count": 207,
+            "uniques": 15
+          },
+          {
+            "timestamp": "2017-08-31T00:00:00Z",
+            "count": 191,
+            "uniques": 33
+          },
+          {
+            "timestamp": "2017-09-01T00:00:00Z",
+            "count": 108,
+            "uniques": 23
+          },
+          {
+            "timestamp": "2017-09-02T00:00:00Z",
+            "count": 94,
+            "uniques": 17
+          },
+          {
+            "timestamp": "2017-09-03T00:00:00Z",
+            "count": 64,
+            "uniques": 10
+          },
+          {
+            "timestamp": "2017-09-04T00:00:00Z",
+            "count": 167,
+            "uniques": 28
+          },
+          {
+            "timestamp": "2017-09-05T00:00:00Z",
+            "count": 247,
+            "uniques": 29
+          },
+          {
+            "timestamp": "2017-09-06T00:00:00Z",
+            "count": 77,
+            "uniques": 19
+          },
+          {
+            "timestamp": "2017-09-07T00:00:00Z",
+            "count": 276,
+            "uniques": 31
+          },
+          {
+            "timestamp": "2017-09-08T00:00:00Z",
+            "count": 158,
+            "uniques": 25
+          },
+          {
+            "timestamp": "2017-09-09T00:00:00Z",
+            "count": 72,
+            "uniques": 11
+          },
+          {
+            "timestamp": "2017-09-10T00:00:00Z",
+            "count": 75,
+            "uniques": 9
+          },
+          {
+            "timestamp": "2017-09-11T00:00:00Z",
+            "count": 142,
+            "uniques": 24
+          },
+          {
+            "timestamp": "2017-09-12T00:00:00Z",
+            "count": 277,
+            "uniques": 43
+          },
+          {
+            "timestamp": "2017-09-13T00:00:00Z",
+            "count": 21,
+            "uniques": 13
           }
         ]
       }
     },
     {
       "name": "ionic-image-loader",
-      "stars": 153,
+      "stars": 154,
       "language": "TypeScript",
       "forks": 30,
-      "npm_downloads": 1315,
+      "npm_downloads": 1292,
       "views": {
-        "count": 2215,
-        "uniques": 561,
+        "count": 2145,
+        "uniques": 562,
         "views": [
           {
-            "timestamp": "2017-08-29T00:00:00Z",
-            "count": 87,
-            "uniques": 19,
-            "npm_downloads": 83
-          },
-          {
             "timestamp": "2017-08-30T00:00:00Z",
-            "count": 191,
-            "uniques": 41,
+            "count": 119,
+            "uniques": 22,
             "npm_downloads": 59
           },
           {
@@ -486,97 +568,15 @@
           },
           {
             "timestamp": "2017-09-12T00:00:00Z",
-            "count": 111,
-            "uniques": 48,
+            "count": 129,
+            "uniques": 62,
             "npm_downloads": 91
-          }
-        ]
-      }
-    },
-    {
-      "name": "ngx-facebook-example",
-      "stars": 9,
-      "language": "TypeScript",
-      "forks": 4,
-      "npm_downloads": 0,
-      "views": {
-        "count": 2168,
-        "uniques": 268,
-        "views": [
-          {
-            "timestamp": "2017-08-29T00:00:00Z",
-            "count": 83,
-            "uniques": 12
           },
           {
-            "timestamp": "2017-08-30T00:00:00Z",
-            "count": 229,
-            "uniques": 18
-          },
-          {
-            "timestamp": "2017-08-31T00:00:00Z",
-            "count": 191,
-            "uniques": 33
-          },
-          {
-            "timestamp": "2017-09-01T00:00:00Z",
-            "count": 108,
-            "uniques": 23
-          },
-          {
-            "timestamp": "2017-09-02T00:00:00Z",
-            "count": 94,
-            "uniques": 17
-          },
-          {
-            "timestamp": "2017-09-03T00:00:00Z",
-            "count": 64,
-            "uniques": 10
-          },
-          {
-            "timestamp": "2017-09-04T00:00:00Z",
-            "count": 167,
-            "uniques": 28
-          },
-          {
-            "timestamp": "2017-09-05T00:00:00Z",
-            "count": 247,
-            "uniques": 29
-          },
-          {
-            "timestamp": "2017-09-06T00:00:00Z",
-            "count": 77,
-            "uniques": 19
-          },
-          {
-            "timestamp": "2017-09-07T00:00:00Z",
-            "count": 276,
-            "uniques": 31
-          },
-          {
-            "timestamp": "2017-09-08T00:00:00Z",
-            "count": 158,
-            "uniques": 25
-          },
-          {
-            "timestamp": "2017-09-09T00:00:00Z",
-            "count": 72,
-            "uniques": 11
-          },
-          {
-            "timestamp": "2017-09-10T00:00:00Z",
-            "count": 75,
-            "uniques": 9
-          },
-          {
-            "timestamp": "2017-09-11T00:00:00Z",
-            "count": 142,
-            "uniques": 24
-          },
-          {
-            "timestamp": "2017-09-12T00:00:00Z",
-            "count": 185,
-            "uniques": 31
+            "timestamp": "2017-09-13T00:00:00Z",
+            "count": 71,
+            "uniques": 25,
+            "npm_downloads": 60
           }
         ]
       }
@@ -586,21 +586,15 @@
       "stars": 36,
       "language": "Objective-C",
       "forks": 16,
-      "npm_downloads": 568,
+      "npm_downloads": 564,
       "views": {
-        "count": 1260,
-        "uniques": 309,
+        "count": 1231,
+        "uniques": 311,
         "views": [
           {
-            "timestamp": "2017-08-29T00:00:00Z",
-            "count": 34,
-            "uniques": 14,
-            "npm_downloads": 72
-          },
-          {
             "timestamp": "2017-08-30T00:00:00Z",
-            "count": 103,
-            "uniques": 33,
+            "count": 53,
+            "uniques": 20,
             "npm_downloads": 47
           },
           {
@@ -677,9 +671,15 @@
           },
           {
             "timestamp": "2017-09-12T00:00:00Z",
-            "count": 70,
-            "uniques": 22,
+            "count": 106,
+            "uniques": 39,
             "npm_downloads": 58
+          },
+          {
+            "timestamp": "2017-09-13T00:00:00Z",
+            "count": 19,
+            "uniques": 12,
+            "npm_downloads": 68
           }
         ]
       }
@@ -691,18 +691,13 @@
       "forks": 4,
       "npm_downloads": 0,
       "views": {
-        "count": 977,
-        "uniques": 154,
+        "count": 983,
+        "uniques": 150,
         "views": [
           {
-            "timestamp": "2017-08-29T00:00:00Z",
-            "count": 52,
-            "uniques": 2
-          },
-          {
             "timestamp": "2017-08-30T00:00:00Z",
-            "count": 32,
-            "uniques": 15
+            "count": 7,
+            "uniques": 3
           },
           {
             "timestamp": "2017-08-31T00:00:00Z",
@@ -766,8 +761,13 @@
           },
           {
             "timestamp": "2017-09-12T00:00:00Z",
-            "count": 69,
-            "uniques": 11
+            "count": 71,
+            "uniques": 12
+          },
+          {
+            "timestamp": "2017-09-13T00:00:00Z",
+            "count": 81,
+            "uniques": 10
           }
         ]
       }
@@ -777,21 +777,15 @@
       "stars": 15,
       "language": "TypeScript",
       "forks": 8,
-      "npm_downloads": 169,
+      "npm_downloads": 241,
       "views": {
-        "count": 879,
-        "uniques": 190,
+        "count": 880,
+        "uniques": 187,
         "views": [
           {
-            "timestamp": "2017-08-29T00:00:00Z",
-            "count": 7,
-            "uniques": 4,
-            "npm_downloads": 12
-          },
-          {
             "timestamp": "2017-08-30T00:00:00Z",
-            "count": 37,
-            "uniques": 22,
+            "count": 12,
+            "uniques": 8,
             "npm_downloads": 13
           },
           {
@@ -868,9 +862,15 @@
           },
           {
             "timestamp": "2017-09-12T00:00:00Z",
-            "count": 88,
-            "uniques": 18,
+            "count": 102,
+            "uniques": 23,
             "npm_downloads": 47
+          },
+          {
+            "timestamp": "2017-09-13T00:00:00Z",
+            "count": 19,
+            "uniques": 7,
+            "npm_downloads": 84
           }
         ]
       }
@@ -880,21 +880,15 @@
       "stars": 11,
       "language": "Objective-C",
       "forks": 6,
-      "npm_downloads": 344,
+      "npm_downloads": 342,
       "views": {
-        "count": 475,
-        "uniques": 122,
+        "count": 410,
+        "uniques": 116,
         "views": [
           {
-            "timestamp": "2017-08-29T00:00:00Z",
-            "count": 78,
-            "uniques": 6,
-            "npm_downloads": 29
-          },
-          {
             "timestamp": "2017-08-30T00:00:00Z",
-            "count": 64,
-            "uniques": 14,
+            "count": 12,
+            "uniques": 7,
             "npm_downloads": 46
           },
           {
@@ -971,9 +965,103 @@
           },
           {
             "timestamp": "2017-09-12T00:00:00Z",
-            "count": 28,
-            "uniques": 11,
+            "count": 59,
+            "uniques": 16,
             "npm_downloads": 37
+          },
+          {
+            "timestamp": "2017-09-13T00:00:00Z",
+            "count": 34,
+            "uniques": 6,
+            "npm_downloads": 27
+          }
+        ]
+      }
+    },
+    {
+      "name": "ionic-tooltips-example",
+      "stars": 0,
+      "language": "HTML",
+      "forks": 1,
+      "npm_downloads": 0,
+      "views": {
+        "count": 337,
+        "uniques": 54,
+        "views": [
+          {
+            "timestamp": "2017-08-30T00:00:00Z",
+            "count": 5,
+            "uniques": 3
+          },
+          {
+            "timestamp": "2017-08-31T00:00:00Z",
+            "count": 24,
+            "uniques": 5
+          },
+          {
+            "timestamp": "2017-09-01T00:00:00Z",
+            "count": 59,
+            "uniques": 4
+          },
+          {
+            "timestamp": "2017-09-02T00:00:00Z",
+            "count": 22,
+            "uniques": 5
+          },
+          {
+            "timestamp": "2017-09-03T00:00:00Z",
+            "count": 22,
+            "uniques": 4
+          },
+          {
+            "timestamp": "2017-09-04T00:00:00Z",
+            "count": 13,
+            "uniques": 3
+          },
+          {
+            "timestamp": "2017-09-05T00:00:00Z",
+            "count": 24,
+            "uniques": 2
+          },
+          {
+            "timestamp": "2017-09-06T00:00:00Z",
+            "count": 28,
+            "uniques": 8
+          },
+          {
+            "timestamp": "2017-09-07T00:00:00Z",
+            "count": 27,
+            "uniques": 5
+          },
+          {
+            "timestamp": "2017-09-08T00:00:00Z",
+            "count": 6,
+            "uniques": 5
+          },
+          {
+            "timestamp": "2017-09-09T00:00:00Z",
+            "count": 9,
+            "uniques": 2
+          },
+          {
+            "timestamp": "2017-09-10T00:00:00Z",
+            "count": 37,
+            "uniques": 4
+          },
+          {
+            "timestamp": "2017-09-11T00:00:00Z",
+            "count": 37,
+            "uniques": 5
+          },
+          {
+            "timestamp": "2017-09-12T00:00:00Z",
+            "count": 23,
+            "uniques": 4
+          },
+          {
+            "timestamp": "2017-09-13T00:00:00Z",
+            "count": 1,
+            "uniques": 1
           }
         ]
       }
@@ -985,18 +1073,13 @@
       "forks": 12,
       "npm_downloads": 0,
       "views": {
-        "count": 332,
-        "uniques": 104,
+        "count": 327,
+        "uniques": 105,
         "views": [
           {
-            "timestamp": "2017-08-29T00:00:00Z",
-            "count": 16,
-            "uniques": 5
-          },
-          {
             "timestamp": "2017-08-30T00:00:00Z",
-            "count": 30,
-            "uniques": 9
+            "count": 14,
+            "uniques": 4
           },
           {
             "timestamp": "2017-08-31T00:00:00Z",
@@ -1060,111 +1143,13 @@
           },
           {
             "timestamp": "2017-09-12T00:00:00Z",
-            "count": 8,
-            "uniques": 4
-          }
-        ]
-      }
-    },
-    {
-      "name": "ionic-material-icons",
-      "stars": 11,
-      "language": "CSS",
-      "forks": 3,
-      "npm_downloads": 430,
-      "views": {
-        "count": 239,
-        "uniques": 105,
-        "views": [
-          {
-            "timestamp": "2017-08-29T00:00:00Z",
-            "count": 3,
-            "uniques": 3,
-            "npm_downloads": 45
+            "count": 17,
+            "uniques": 7
           },
           {
-            "timestamp": "2017-08-30T00:00:00Z",
-            "count": 20,
-            "uniques": 7,
-            "npm_downloads": 31
-          },
-          {
-            "timestamp": "2017-08-31T00:00:00Z",
-            "count": 26,
-            "uniques": 14,
-            "npm_downloads": 13
-          },
-          {
-            "timestamp": "2017-09-01T00:00:00Z",
-            "count": 24,
-            "uniques": 13,
-            "npm_downloads": 32
-          },
-          {
-            "timestamp": "2017-09-02T00:00:00Z",
-            "count": 12,
-            "uniques": 5,
-            "npm_downloads": 32
-          },
-          {
-            "timestamp": "2017-09-03T00:00:00Z",
-            "count": 5,
-            "uniques": 5,
-            "npm_downloads": 0
-          },
-          {
-            "timestamp": "2017-09-04T00:00:00Z",
-            "count": 8,
-            "uniques": 6,
-            "npm_downloads": 0
-          },
-          {
-            "timestamp": "2017-09-05T00:00:00Z",
-            "count": 9,
-            "uniques": 9,
-            "npm_downloads": 37
-          },
-          {
-            "timestamp": "2017-09-06T00:00:00Z",
-            "count": 23,
-            "uniques": 11,
-            "npm_downloads": 36
-          },
-          {
-            "timestamp": "2017-09-07T00:00:00Z",
-            "count": 15,
-            "uniques": 8,
-            "npm_downloads": 21
-          },
-          {
-            "timestamp": "2017-09-08T00:00:00Z",
+            "timestamp": "2017-09-13T00:00:00Z",
             "count": 18,
-            "uniques": 9,
-            "npm_downloads": 77
-          },
-          {
-            "timestamp": "2017-09-09T00:00:00Z",
-            "count": 5,
-            "uniques": 4,
-            "npm_downloads": 54
-          },
-          {
-            "timestamp": "2017-09-10T00:00:00Z",
-            "count": 25,
-            "uniques": 6,
-            "npm_downloads": 1
-          },
-          {
-            "timestamp": "2017-09-11T00:00:00Z",
-            "count": 25,
-            "uniques": 15,
-            "npm_downloads": 3
-          },
-          {
-            "timestamp": "2017-09-12T00:00:00Z",
-            "count": 21,
-            "uniques": 9,
-            "npm_downloads": 48
+            "uniques": 5
           }
         ]
       }
@@ -1176,19 +1161,13 @@
       "forks": 2,
       "npm_downloads": 5,
       "views": {
-        "count": 235,
-        "uniques": 61,
+        "count": 239,
+        "uniques": 60,
         "views": [
           {
-            "timestamp": "2017-08-29T00:00:00Z",
-            "count": 1,
-            "uniques": 1,
-            "npm_downloads": 0
-          },
-          {
             "timestamp": "2017-08-30T00:00:00Z",
-            "count": 8,
-            "uniques": 6,
+            "count": 6,
+            "uniques": 4,
             "npm_downloads": 0
           },
           {
@@ -1265,9 +1244,118 @@
           },
           {
             "timestamp": "2017-09-12T00:00:00Z",
-            "count": 23,
-            "uniques": 5,
+            "count": 29,
+            "uniques": 6,
             "npm_downloads": 1
+          },
+          {
+            "timestamp": "2017-09-13T00:00:00Z",
+            "count": 1,
+            "uniques": 1,
+            "npm_downloads": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "ionic-material-icons",
+      "stars": 12,
+      "language": "CSS",
+      "forks": 3,
+      "npm_downloads": 427,
+      "views": {
+        "count": 225,
+        "uniques": 102,
+        "views": [
+          {
+            "timestamp": "2017-08-30T00:00:00Z",
+            "count": 4,
+            "uniques": 3,
+            "npm_downloads": 31
+          },
+          {
+            "timestamp": "2017-08-31T00:00:00Z",
+            "count": 26,
+            "uniques": 14,
+            "npm_downloads": 13
+          },
+          {
+            "timestamp": "2017-09-01T00:00:00Z",
+            "count": 24,
+            "uniques": 13,
+            "npm_downloads": 32
+          },
+          {
+            "timestamp": "2017-09-02T00:00:00Z",
+            "count": 12,
+            "uniques": 5,
+            "npm_downloads": 32
+          },
+          {
+            "timestamp": "2017-09-03T00:00:00Z",
+            "count": 5,
+            "uniques": 5,
+            "npm_downloads": 0
+          },
+          {
+            "timestamp": "2017-09-04T00:00:00Z",
+            "count": 8,
+            "uniques": 6,
+            "npm_downloads": 0
+          },
+          {
+            "timestamp": "2017-09-05T00:00:00Z",
+            "count": 9,
+            "uniques": 9,
+            "npm_downloads": 37
+          },
+          {
+            "timestamp": "2017-09-06T00:00:00Z",
+            "count": 23,
+            "uniques": 11,
+            "npm_downloads": 36
+          },
+          {
+            "timestamp": "2017-09-07T00:00:00Z",
+            "count": 15,
+            "uniques": 8,
+            "npm_downloads": 21
+          },
+          {
+            "timestamp": "2017-09-08T00:00:00Z",
+            "count": 18,
+            "uniques": 9,
+            "npm_downloads": 77
+          },
+          {
+            "timestamp": "2017-09-09T00:00:00Z",
+            "count": 5,
+            "uniques": 4,
+            "npm_downloads": 54
+          },
+          {
+            "timestamp": "2017-09-10T00:00:00Z",
+            "count": 25,
+            "uniques": 6,
+            "npm_downloads": 1
+          },
+          {
+            "timestamp": "2017-09-11T00:00:00Z",
+            "count": 25,
+            "uniques": 15,
+            "npm_downloads": 3
+          },
+          {
+            "timestamp": "2017-09-12T00:00:00Z",
+            "count": 23,
+            "uniques": 11,
+            "npm_downloads": 48
+          },
+          {
+            "timestamp": "2017-09-13T00:00:00Z",
+            "count": 3,
+            "uniques": 2,
+            "npm_downloads": 42
           }
         ]
       }
