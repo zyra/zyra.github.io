@@ -62,9 +62,9 @@ Chart.plugins.register(plugins);
 Chart.platform.initialize();
 
 module.exports = Chart;
-if (typeof window !== 'undefined') {
-  window.Chart = Chart;
-}
+//if (typeof window !== 'undefined') {
+//  window.Chart = Chart;
+//}
 
 // DEPRECATIONS
 
@@ -75,4 +75,4 @@ if (typeof window !== 'undefined') {
  * @todo remove at version 3
  * @private
  */
-Chart.canvasHelpers = Chart.helpers.canvas;
+// Chart.canvasHelpers = Chart.helpers.canvas;
