@@ -20,7 +20,7 @@ importScripts('workbox-sw.prod.v2.0.1.js');
 const fileManifest = [
   {
     "url": "assets/stats.json",
-    "revision": "4daa3fc09262bc38ed6fe716f4a30e75"
+    "revision": "04e10825d91984d88839d7ad6a5e5626"
   },
   {
     "url": "assets/toronto-landscape-night.jpg",
