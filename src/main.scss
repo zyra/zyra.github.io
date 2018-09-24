@@ -8,7 +8,7 @@ $secondary: #f41b4b;
 @import '../node_modules/bootstrap/scss/mixins/alert';
 @import '../node_modules/bootstrap/scss/type';
 @import '../node_modules/bootstrap/scss/reboot';
-@import '../node_modules/bootstrap/scss/alert';
+//@import '../node_modules/bootstrap/scss/alert';
 //@import '../node_modules/bootstrap/scss/';
 
 html, body {
@@ -26,6 +26,10 @@ html, body {
 
 h2 {
   font-weight: 300;
+}
+
+.row.section {
+
 }
 
 h2.section-header {
@@ -49,6 +53,21 @@ h2.section-header {
   max-width: 90%;
   display: block;
   z-index: 1000;
+}
+
+.stats {
+  background: #000;
+  padding: 40px 0;
+}
+
+.donation {
+  background: #171717;
+  padding: 40px 0;
+
+  .crypto-address {
+    color: white;
+    text-align: center;
+  }
 }
 
 @import '_includes/header';

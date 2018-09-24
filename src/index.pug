@@ -10,13 +10,28 @@ html(lang="en")
 
     include _includes/header
 
-    .container.main-chart-container
-      .row
-        h2.section-header Overall Stats
-          small (last 15 days)
-        canvas#chart-canvas
+    .container-fluid.stats
+      .container.main-chart-container
+        .row
+          h2.section-header Overall Stats
+            small (last 15 days)
+          canvas#chart-canvas
+
+    .container-fluid.donation
+      .container
+        .row
+          h2.section-header
+            a(id='donate') Donate
+            small Contribute to our Open Source Software development
+        .row.justify-content-center
+          include _includes/donation
+        .row.justify-content-center
+          .col
+            .crypto-address BTC: 1Pe7s5SnCsoHK9qQPQFjxrUAWhoMnJv1XD
+            .crypto-address <a href="https://merit.me" target="_blank" title="Merit Cryptocurrency">Merit</a>: @zyra-oss
 
     .repos
+      include _includes/repos
 
     script(type='text/javascript' src='main.js')
-    script(type='text/javascript') var n=navigator;if('serviceWorker'in n)window.addEventListener('load', function(){navigator.serviceWorker.register('/sw.js')})
+    //script(type='text/javascript') var n=navigator;if('serviceWorker'in n)window.addEventListener('load', function(){navigator.serviceWorker.register('/sw.js')})
