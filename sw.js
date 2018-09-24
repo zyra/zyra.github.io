@@ -1,4 +1,4 @@
-importScripts('workbox-sw.prod.v2.0.1.js');
+importScripts('workbox-sw.prod.v2.1.3.js');
 
 /**
  * DO NOT EDIT THE FILE MANIFEST ENTRY
@@ -20,7 +20,7 @@ importScripts('workbox-sw.prod.v2.0.1.js');
 const fileManifest = [
   {
     "url": "assets/stats.json",
-    "revision": "04e10825d91984d88839d7ad6a5e5626"
+    "revision": "1596197e8f4251d3e19c9b1d90b0f891"
   },
   {
     "url": "assets/toronto-landscape-night.jpg",
@@ -32,15 +32,15 @@ const fileManifest = [
   },
   {
     "url": "index.html",
-    "revision": "26c901b7cdd08630a526086368935970"
+    "revision": "f1b61886f41a49cc7845727d84c1547a"
   },
   {
     "url": "main.css",
-    "revision": "1ddf1f0808a71a1516ece4112ac40907"
+    "revision": "48fbc976ae39946ed3faa2adff2e8d35"
   },
   {
     "url": "main.js",
-    "revision": "24920ebf0d1f3cc3087abb0ebc2d5e9d"
+    "revision": "c1ab5fdae353327def9690d56f16cfca"
   }
 ];
 
