@@ -31,8 +31,7 @@ interface Stats {
 }
 
 const onLoad = () => {
-
-  fetch('assets/stats.json')
+  fetch('https://zyra.ca/stats/stats.json')
     .then((response: Response) => response.json())
     .then((response: Stats) => {
       response.mainChartData.options = {
