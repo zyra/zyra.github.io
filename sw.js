@@ -32,7 +32,7 @@ const fileManifest = [
   },
   {
     "url": "index.html",
-    "revision": "f1b61886f41a49cc7845727d84c1547a"
+    "revision": "420fefe810a6221c2f3dab467b18a4af"
   },
   {
     "url": "main.css",
